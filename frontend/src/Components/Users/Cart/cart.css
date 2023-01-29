@@ -1,0 +1,251 @@
+.cartSection {
+    width: 100%;
+    height: auto;
+    min-height: 550px;
+    background-color: #eaeded;
+    padding-top: 1rem;
+    overflow: auto;
+}
+
+.cartContainer {
+    margin: auto;
+}
+
+.cartBoxContainer {
+    width: 1000px;
+    height: auto;
+    background-color: #ffffff;
+    margin-left: 1rem;
+    float: left;
+    margin-bottom: 2rem;
+}
+
+.cartBox {
+    width: 1000px;
+    height: auto;
+}
+
+.checkoutBox {
+    width: 300px;
+    height: 175px;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    margin-left: 65rem;
+    text-align: center;
+}
+
+.shoppingCartText {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.CartBoxPriceTitleText {
+    font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+    margin-left: 950px;
+}
+
+.cartTitleHr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #dddddd;
+}
+
+.cartImageDiv {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.cartImage {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.cartContentBox {
+    margin-left: 220px;
+    width: 600px;
+}
+
+.cartProductTitleDiv {
+    width: 600px;
+    margin-top: 1rem;
+}
+
+.cartProductTitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cartStockDiv {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 1rem;
+    color: #007600;
+}
+
+.cartQtyBtnDiv {
+    width: 6rem;
+    float: left;
+}
+
+.cartBtnQty {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #e6e6e6;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.cartSelectBtnQty {
+    border: none;
+    outline: none;
+    background-color: #e6e6e6;
+}
+
+.cartBtnText {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cartDeleteDiv {
+    margin-top: 40px;
+}
+
+.cartDeleteTextMark {
+    font-size: 12px;
+    line-height: 16px;
+    color: darkgray;
+}
+
+.cartDeleteText {
+    font-size: 12px;
+    line-height: 16px;
+    color: #047188;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.cartDeleteText:hover {
+    text-decoration: underline;
+}
+
+.cartProductPriceDiv {
+    text-align: right;
+    width: 140px;
+    height: 50px;
+    margin-left: 850px;
+    margin-top: -9rem;
+}
+
+.cartProductPrice {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.subTotalCartDiv {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+}
+
+.cartBottomHr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 10rem;
+    background-color: #dddddd;
+}
+
+.subTotalCartText {
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.cartSubTotalText {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.cartSubTotalPrice {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.subTotalText {
+    padding-top: 2rem;
+}
+
+.checkOutSubTotalText {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.checkOutSubTotalPrice {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.checkOutBtn {
+    width: 258px;
+    height: 30px;
+    margin-top: 2rem;
+    background-color: #92d661;
+    border-color: #92d661;
+    border-width: 0.5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.checkOutBtn:hover {
+    background-color: #9de868;
+}
+
+.emptyCartDiv {
+    background-color: #fff;
+    width: 60%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emptyCart {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emptyCartContentText {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0F1111;
+}
+
+.emptyCartShoppingLink {
+    text-align: end;
+    padding-top: 3rem;
+}
+
+.goShoppingLink {
+    color: #15788b;
+}
+
+.goShoppingLink:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}

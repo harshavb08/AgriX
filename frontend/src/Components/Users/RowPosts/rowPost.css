@@ -1,0 +1,46 @@
+.rowPosterSection {
+    background-color: #eaeded;
+    width: 100%;
+    height: 350px;
+    min-height: 350px;
+}
+
+.rowPosterContainer {
+    width: 98.34%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.divRow {
+    width: 98%;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 1rem;
+    float: left;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}

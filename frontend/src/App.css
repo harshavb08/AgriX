@@ -1,0 +1,13 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+button:focus {
+    outline: 0px;
+}
+
+input {
+    padding-left: 1rem;
+}

@@ -1,0 +1,19 @@
+.carousel {
+    height: 70vh;
+}
+
+.carousel-item img {
+    object-fit: fill;
+    width: auto;
+    vertical-align: middle;
+    border: none;
+    /* object-position: center; */
+    height: 70vh;
+    overflow: hidden;
+    /* border: 4px solid black; */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.127);
+}

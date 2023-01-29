@@ -1,0 +1,515 @@
+.navcontainer {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 15px;
+}
+
+.navbarContainer {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.userHomeHeader {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.logoRowHomeHeader {
+    height: 80px;
+    width: 100%;
+    position: static;
+    float: none;
+    display: flex;
+    /* background-color: #131921; */
+    background-color: rgb(231, 230, 230);
+}
+
+.departmentRowHomeHeader {
+    height: 50px;
+    width: 100%;
+    position: static;
+    float: none;
+    display: flex;
+    background-color: #558A2E;
+}
+
+.amazonNavLogoDiv {
+    width: 12%;
+    height: 60px;
+}
+
+.amazonNavLogo {
+    width: 50px;
+    margin: 1.1rem;
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.amazonNavLogoText {
+    color: #558a2e;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 5px 30px 80px 30px;
+    cursor: pointer;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.navTextDivAccount {
+    width: 9.4%;
+    height: 60px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.navTextDivOrders {
+    width: 6.2%;
+    margin-top: 20px;
+}
+
+.navTextDivCart {
+    width: 7.4%;
+}
+
+.navText {
+    color: black;
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.navText:hover {
+    color: #ffa53f;
+}
+
+.navHighText {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}
+
+.navHighText:hover .navText {
+    color: #ffa53f;
+}
+
+.cartNavLogo {
+    height: 35px;
+    width: auto;
+    color: black;
+    margin-top: 20px;
+}
+
+.cartText {
+    margin-top: -5px;
+    margin-left: 42px;
+    color: black;
+}
+
+.cartNavLogo:hover .cartText {
+    color: #558A2E;
+}
+
+.cartText:hover {
+    color: #ffa53f;
+}
+
+.navCartCountText {
+    font-size: larger;
+    font-weight: 700;
+    color: #558A2E;
+}
+
+.navCartCountDiv {
+    margin-top: -40px;
+    margin-left: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navSignInBtn {
+    display: block;
+    height: 33px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid;
+    border-color: #558A2E #558A2E #558a2e;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: inset 0 1px 0 0 #fcf3dc;
+    background: -webkit-linear-gradient(top, #7bf733, #528413);
+    text-align: center;
+    line-height: 31px;
+    color: #111;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+
+.navTextDivAccount:hover .dropdown-content {
+    display: block;
+}
+
+.navSignInDiv {
+    width: 8rem;
+    height: 4rem;
+    background-color: #fff;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+    z-index: 10000;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 13%);
+    overflow: visible;
+    border: 1px solid #bbb;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.navSignOutDiv {
+    width: auto;
+    height: auto;
+    overflow: visible;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 13%);
+    background: #fff;
+    border: 1px solid #bbb;
+    margin-left: -1.5rem;
+    margin-top: 1rem;
+    overflow: auto;
+    border-radius: 3px 3px 3px 3px;
+    z-index: 10000;
+    position: relative;
+}
+
+.navSignOutContainer {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.navSignOutTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F1111;
+}
+
+.navSignOutYourAccount {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    white-space: normal;
+    line-height: 16px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.navSignOutYourAccount:hover {
+    text-decoration: underline;
+    color: #e47911;
+}
+
+.navSignOutWishList {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    white-space: normal;
+    line-height: 16px;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.navSignOutWishList:hover {
+    text-decoration: underline;
+    color: #e47911;
+}
+
+.navSignOutOrders {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    white-space: normal;
+    line-height: 16px;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+}
+
+.navSignOutOrders:hover {
+    text-decoration: underline;
+    color: #e47911;
+}
+
+.navSignOutSignOut {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    white-space: normal;
+    line-height: 16px;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.navSignOutSignOut:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.locationRowHomeHeader {
+    /* border: 2px solid black; */
+    height: 60px;
+    position: static;
+    float: none;
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(231, 230, 230);
+    width: auto;
+}
+
+.locationNavLogoDiv {
+    height: 60px;
+    color: black;
+}
+
+.locationNavLogo {
+    max-height: 20px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.navShippingAddressDiv {
+    height: 60px;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.navSearchBarDiv {
+    /* border: 2px solid yellow; */
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.navSearchBar {
+    height: 40px;
+    width: 600px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.searchIconContainer {
+    background-color: #558A2E;
+    width: 40px;
+    height: 40px;
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+    cursor: pointer;
+}
+
+.searchIconContainer:hover {
+    background-color: #426a25;
+}
+
+.searchIconDiv {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.navSearchList {
+    width: 598px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    margin-top: 49px;
+    margin-left: 468px;
+}
+
+.navSearchList div {
+    margin: 1rem;
+}
+
+.navSearchList p {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.departmentRowHomeHeaderContainer {
+    margin-top: 0.5rem;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarToggleIcon {
+    color: white;
+    margin-top: 0.4rem;
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-size: 1.5rem;
+    cursor: pointer;
+    float: left;
+}
+
+.navSidebarCloseIcon {
+    margin-top: -3rem;
+    margin-left: 18rem;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+.departmentRowHomeHeaderContentText {
+    color: white;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 0.2rem;
+    float: left;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.departmentRowHomeHeaderContentText:hover {
+    border: 0px solid white;
+    color: #0F1111;
+}
+
+
+/* Sidebar */
+
+p {
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.sidebarSection {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(36, 41, 46, 0.9);
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.sidebarContainer {
+    width: 27%;
+    height: auto;
+    z-index: 1000;
+    display: flex;
+    position: fixed;
+    background-color: black;
+    overflow: auto;
+}
+
+.sidebarHeader {
+    width: 100%;
+    height: 50px;
+    background-color: #558A2E;
+    position: absolute;
+}
+
+.sidebarHeaderContainer {
+    margin-top: 0.5rem;
+}
+
+.sidebarHeaderText {
+    margin-left: 2rem;
+}
+
+.sidebarHeaderTextSpan {
+    padding-top: 1rem;
+    margin-top: -3.3rem;
+    margin-left: 2.5rem;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+}
+
+.sidebarBody {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: white;
+    padding-top: 4.5rem;
+}
+
+.sidebarBodyTitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #111;
+    margin-left: 2.5rem;
+}
+
+.sidebarBodyTextDiv {
+    cursor: pointer;
+    height: 3rem;
+}
+
+.sidebarBodyTextDiv:hover {
+    background-color: #eaeded;
+}
+
+.sidebarBodyText {
+    color: #111;
+    font-size: 14px;
+    padding-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+@media(max-width:450px) {
+    .navSearchBarDiv {
+        /* border: 2px solid yellow; */
+        display: none;
+    }
+    .navSearchBar {
+        display: none;
+    }
+    .searchIconContainer {
+        background-color: #558A2E;
+        width: 40px;
+        height: 40px;
+        float: right;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-left: none;
+        cursor: pointer;
+    }
+    .searchIconContainer:hover {
+        background-color: #426a25;
+    }
+    .searchIconDiv {
+        margin-left: 8px;
+        margin-top: 8px;
+    }
+    .departmentRowHomeHeaderContentText {
+        display: none;
+    }
+}

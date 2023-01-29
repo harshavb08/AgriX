@@ -1,0 +1,140 @@
+.containerheader {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    background-color: #558a2e;
+}
+
+.logo {
+    width: 96px;
+    margin: 1.1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.amazonLogoText {
+    color: rgb(231, 230, 230);
+    position: absolute;
+    font-size: 40px;
+    margin: 10px 80px;
+    font-weight: 700;
+    cursor: pointer;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+.panelTextDiv {
+    margin-left: 70%;
+    margin-top: 0.5rem;
+}
+
+.productsText,
+.usersText,
+.ordersText {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    float: left;
+    cursor: pointer;
+}
+
+.adminText {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    float: left;
+    cursor: pointer;
+}
+
+.panelText {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: rgb(231, 230, 230);
+    font-weight: 700;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.panelText:hover {
+    color: whitesmoke;
+}
+
+.headerSignOutBtn {
+    display: block;
+    height: 33px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid;
+    border-color: #558a2e #558a2e #558a2e;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: inset 0 1px 0 0 #fcf3dc;
+    background: -webkit-linear-gradient(top, #80d940, #74c23c);
+    text-align: center;
+    line-height: 31px;
+    color: #111;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 13px;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerSignOutDiv {
+    width: 8rem;
+    height: 4rem;
+    background-color: #fff;
+    z-index: 10000;
+    position: relative;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 13%);
+    overflow: visible;
+    border: 1px solid #bbb;
+    border-radius: 3px 3px 3px 3px;
+    margin-left: -2.5rem;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+}
+
+.panelText:hover .dropdown-content {
+    display: block;
+}
+
+.adminSearchBarDiv {
+    margin-left: 2rem;
+    /* margin-top: -30px; */
+    margin-top: 0.8rem;
+    float: left;
+    width: 70%;
+    justify-items: end;
+    justify-content: end;
+    display: flex;
+}
+
+.adminSearchBar {
+    height: 39px;
+    width: 80%;
+    /* outline: none; */
+    border: 2px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.headerSearchList {
+    width: 755px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    margin-top: 49px;
+    margin-left: 183px;
+}
+
+.headerSearchList div {
+    margin: 1rem;
+}
+
+.headerSearchList p {
+    font-weight: 700;
+    cursor: pointer;
+}

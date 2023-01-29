@@ -1,0 +1,37 @@
+{
+    "name": "amazon",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js --ignore client"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alanchrissantony/Amazon.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alanchrissantony/Amazon/issues"
+    },
+    "homepage": "https://github.com/alanchrissantony/Amazon#readme",
+    "dependencies": {
+        "axios": "^1.2.5",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.1",
+        "dotenv": "^15.0.0",
+        "express": "^4.17.2",
+        "express-async-handler": "^1.2.0",
+        "express-fileupload": "^1.4.0",
+        "express-mailer": "^0.3.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.1.8",
+        "nodemailer": "^6.9.1",
+        "react-circular-progressbar": "^2.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
