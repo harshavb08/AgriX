@@ -1,6 +1,6 @@
 import express from 'express'
 import mongoose from 'mongoose';
-import dotenv from 'dotenv'
+import dotenv from 'dotenv';
 import data from './Data/data.js'
 import productRouter from './routers/productRouter.js';
 import userRouter from './routers/userRouter.js'
@@ -37,14 +37,24 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/AgriX', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-}).then(() => {
-    console.log('Connected to MongoDB');
-}).catch((error) => {
-    console.log(error.reason);
+// mongoose.connect(process.env.MONGODB_URL, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+// }).then(() => {
+//     console.log('Connected to MongoDB');
+// }).catch((error) => {
+//     console.log(error.reason);
+// });
+
+mongoose.connect(process.env.MONGO_CONNECTION_STRING, {}, function(err) {
+    if (err) {
+        console.error(err);
+    } else {
+        console.log('Connected to database');
+    }
 });
+
+console.log(process.env.MONGODB_URL);
 
 app.use('/api/users', userRouter)
 app.use('/api/products', productRouter)
@@ -73,7 +83,7 @@ app.use((err, req, res, next) => {
     res.status(500).send({ message: err.message });
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 app.listen(port, () => {
     console.log(`Server at http://localhost:${port}`)

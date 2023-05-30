@@ -16,7 +16,6 @@ function Departments() {
 
   useEffect(()=>{
     const fetchData = async ()=>{
-
       try{
         setLoading(true)
         const {data} =await axios.post('/api/departments')

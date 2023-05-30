@@ -5,7 +5,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js --ignore client"
+        "start": "nodemon --watch backend --exec node --experimental-modules server.js --ignore client"
     },
     "repository": {
         "type": "git",

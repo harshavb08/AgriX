@@ -1,38 +1,39 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './ view/Users/Pages/home';
-import Products from './ view/Users/Pages/products';
-import Product from './ view/Users/Pages/product';
-import ProductScreen from './ view/Users/Pages/productScreen';
-import Cart from './ view/Users/Pages/cart';
-import Login from './ view/Users/Pages/login';
-import Signup from './ view/Users/Pages/signup';
-import Address from './ view/Users/Pages/address'
-import Payment from './ view/Users/Pages/payment'
-import PlaceOrder from './ view/Users/Pages/placeOrder'
-import Order from './ view/Users/Pages/order'
-import OrderHistory from './ view/Users/Pages/orderHistory';
-import AdminLogin from './ view/Admin/Pages/login';
-import LogInSecurity from './ view/Users/Pages/Login&Security/logInSecurity';
-import Name from './ view/Users/Pages/Login&Security/name';
-import Email from './ view/Users/Pages/Login&Security/email';
-import Password from './ view/Users/Pages/Login&Security/password';
+import Home from './view/Users/Pages/home';
+import Products from './view/Users/Pages/products';
+import Product from './view/Users/Pages/product';
+import ProductScreen from './view/Users/Pages/productScreen';
+import Cart from './view/Users/Pages/cart';
+import Login from './view/Users/Pages/login';
+import Signup from './view/Users/Pages/signup';
+ 
+import Address from './view/Users/Pages/address'
+import Payment from './view/Users/Pages/payment'
+import PlaceOrder from './view/Users/Pages/placeOrder'
+import Order from './view/Users/Pages/order'
+import OrderHistory from './view/Users/Pages/orderHistory';
+import AdminLogin from './view/Admin/Pages/login';
+import LogInSecurity from './view/Users/Pages/Login&Security/logInSecurity';
+import Name from './view/Users/Pages/Login&Security/name';
+import Email from './view/Users/Pages/Login&Security/email';
+import Password from './view/Users/Pages/Login&Security/password';
 import PrivateRoute from './Components/PrivateRoute';
-import AdminPanel from './ view/Admin/Pages/panel';
-import ProductsView from './ view/Admin/Pages/products';
-import AddProducts from './ view/Admin/Pages/AddProducts';
+import AdminPanel from './view/Admin/Pages/panel';
+import ProductsView from './view/Admin/Pages/products';
+import AddProducts from './view/Admin/Pages/AddProducts';
 import { useEffect } from 'react';
 import { useContext } from 'react';
 import { AuthContext, FirebaseContext } from './store/FirebaseContext';
 
 import Container from "react-bootstrap/Container";
-import EditProducts from './ view/Admin/Pages/EditProducts';
-import OrderDetails from './ view/Admin/Pages/OrderDetails';
-import Users from './ view/Admin/Pages/Users';
-import Departments from './ view/Admin/Pages/Departments';
-import BlogWrite from './ view/Users/Pages/BlogWrite';
-import Blogview from './ view/Users/Pages/Blogview';
-import SellWithUs from './ view/Users/Pages/SellWithUs';
+import EditProducts from './view/Admin/Pages/EditProducts';
+import OrderDetails from './view/Admin/Pages/OrderDetails';
+import Users from './view/Admin/Pages/Users';
+import Departments from './view/Admin/Pages/Departments';
+import BlogWrite from './view/Users/Pages/BlogWrite';
+import Blogview from './view/Users/Pages/Blogview';
+import SellWithUs from './view/Users/Pages/SellWithUs';
 
 
 function App() {
