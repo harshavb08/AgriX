@@ -19,14 +19,14 @@ const app = express();
 
 // mine
 mailer.extend(app, {
-    from: 'agrixcultcode@outlook.com',
+    from: process.env.FROM_MAILID,
     host: 'smtp.gmail.com', // hostname
     secureConnection: true, // use SSL
     port: 465, // port for secure SMTP
     transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
     auth: {
-        user: 'agrixcultcode@outlook.com',
-        pass: 'agrix@hhrsv'
+        user: process.env.FROM_MAILID,
+        pass: process.env.FROM_MAILID_PASSWORD
     }
 });
 
